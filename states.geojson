@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New South Wales"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [141.0, -37.5],
+            [150.0, -37.5],
+            [150.0, -28.0],
+            [141.0, -28.0],
+            [141.0, -37.5]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Victoria"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [141.0, -39.0],
+            [150.0, -39.0],
+            [150.0, -37.5],
+            [141.0, -37.5],
+            [141.0, -39.0]
+          ]
+        ]
+      }
+    }
+    // Add other states similarly
+  ]
+}
